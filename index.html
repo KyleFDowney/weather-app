@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <title>Weather App</title>
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+        <div class="col-sm-1 col-md-2 col-lg-3">
+        </div>
+
+        <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+<!-- Search City -->
+            <div class="box-container">
+              <span><b>Search for City:</b></span>
+              <form>
+                <input class="city-name" type="text" name="city-name" placeholder="City name" value="">
+                <input type="button" value="Submit" id="submit-button">
+              </form>
+              <p id="city-display"></p>
+            </div>
+<!-- Conditions -->
+            <div class="box-container conditions-container">
+              <p>Conditions</p>
+            </div>
+            <div class="box-container conditions-container2">
+              <p id="conditions">&nbsp;</p>
+            </div>
+<!-- Temperatures header -->
+            <div class="box-container temperature-container">
+                <p>Temperatures</p>
+            </div>
+<!-- Current Temp -->
+            <div class="box-container temperature-current">
+                <p>Current</p>
+            </div>
+            <div class="box-container temperature-current2">
+              <p id="temp-current">&nbsp;</p>
+            </div>
+<!-- High Temp -->
+            <div class="box-container temperature-high">
+                <p>High</p>
+            </div>
+            <div class="box-container temperature-high2">
+              <p id="temp-high">&nbsp;</p>
+            </div>
+<!-- Low Temp -->
+            <div class="box-container temperature-low">
+                <p>Low</p>
+            </div>
+            <div class="box-container temperature-low2">
+              <p id="temp-low">&nbsp;</p>
+            </div>
+            <!-- end results -->
+        </div>
+            <!-- end col-sm-6 -->
+        <div class="col-sm-1 col-md-2 col-lg-3">
+        </div>
+    </div>
+            <!-- end container-fluid -->
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+  </body>
+</html>
